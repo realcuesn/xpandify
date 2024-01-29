@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.01 169.93">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Manrope-Regular, Manrope;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 25.13px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        opacity: .9;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: #222;
+      }
+
+      .cls-2 {
+        font-family: Manrope-Bold, Manrope;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-4" d="m65.63,0C59.9,0,55.25,4.65,55.25,10.38v34.12h-.02s0,16.32,0,16.32c0,.95-.38,1.81-1,2.43-.62.62-1.48,1.01-2.43,1.01-1.9,0-3.44-1.54-3.44-3.44V9.93C48.14,4.41,43.59,0,38.01,0s-10.38,4.65-10.38,10.38v24.28c0,.95-.38,1.81-1.01,2.43-.62.62-1.48,1.01-2.43,1.01-1.9,0-3.44-1.54-3.44-3.43V10.38C20.76,4.65,16.11,0,10.38,0,5.88,0,2.06,2.86.61,6.86.22,7.96,0,9.14,0,10.38v21.89c0,2.59.95,4.95,2.51,6.77l4.34,2.99,52.25,35.99,1.36.93s0,0,.01,0c1.52.87,3.28,1.38,5.16,1.38,2.87,0,5.46-1.17,7.34-3.05,1.85-1.86,3-4.4,3.03-7.22,0-.05,0-.1,0-.15V10.38C76,4.65,71.36,0,65.63,0M5.81,56.29c-3.1,0-5.62,2.51-5.62,5.62s2.51,5.61,5.62,5.61,5.61-2.51,5.61-5.61-2.51-5.62-5.61-5.62"/>
+      <text class="cls-1" transform="translate(.2 101.75)"><tspan class="cls-8" x="0" y="0">T</tspan><tspan class="cls-7" x="15.76" y="0">h</tspan><tspan class="cls-5" x="31.25" y="0">e</tspan></text>
+      <text class="cls-2" transform="translate(47.16 101.75)"><tspan x="0" y="0"> </tspan></text>
+      <text class="cls-2" transform="translate(.2 131.91)"><tspan class="cls-7" x="0" y="0">Stoc</tspan><tspan class="cls-6" x="61.22" y="0">k</tspan><tspan x="76.38" y="0"> </tspan></text>
+      <text class="cls-2" transform="translate(.2 162.07)"><tspan class="cls-8" x="0" y="0">P</tspan><tspan class="cls-7" x="17.64" y="0">itc</tspan><tspan x="53.05" y="0">h</tspan></text>
+      <rect class="cls-3" width="82.01" height="169.92"/>
+    </g>
+  </g>
+</svg>

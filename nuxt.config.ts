@@ -1,6 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ["~/assets/fonts/stylesheet.css"],
-  devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  css: ["~/assets/css/main.css", "~/assets/fonts/fonts.css"],
+  ssr: false,
+  modules: ["@nuxt/image", "nuxt-swiper"],
+  build: {
+    transpile: ["gsap"],
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 });
