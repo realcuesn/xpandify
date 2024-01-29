@@ -12,7 +12,7 @@
         <form @submit.prevent="handleSubmit" class="w-full lg:flex grid-cols-2 gap-x-20 mt-5 lg:mt-0">
             <div class="w-full hidden lg:block">
                 <img class="w-fit rounded-2xl h-full object-cover"
-                    src="@/assets/images/picture/pexels-spencer-gurley-films-1436707.jpg" alt="Image 9" />
+                    src="/images/picture/pexels-spencer-gurley-films-1436707.jpg" alt="Image 9" />
             </div>
             <div class="w-full p-4 lg:p-5 flex flex-col gap-y-10 bg-white text-black rounded-2xl font-nuckle">
                 <div class="">
@@ -111,7 +111,7 @@
 
             <div class="w-full block mt-10 lg:hidden">
                 <img class="w-fit rounded-2xl h-full object-cover"
-                    src="@/assets/images/picture/pexels-spencer-gurley-films-1436707.jpg" alt="Image 9" />
+                    src="/images/picture/pexels-spencer-gurley-films-1436707.jpg" alt="Image 9" />
             </div>
         </form>
     </div>
