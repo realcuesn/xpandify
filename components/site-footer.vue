@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full px-5 xl:px-28 py-28 lg:grid grid-cols-3  bg-neutral-900 lg:pt-16 lg:pb-8 text-white">
+    <div class="w-full px-5 xl:px-28 py-28 lg:grid grid-cols-3  bg-stone-950 lg:pt-16 lg:pb-8 text-white">
         <div class="grid grid-cols-2 w-full lg:w-fit text-sm sm:text-lg lg:text-sm">
             <div class="flex flex-col gap-y-3">
                 <NuxtLink class="block" to="/">Home</NuxtLink>
