@@ -84,25 +84,25 @@
             </div>
             <div class="w-full h-[37vw]">
                 <NuxtImg preload placeholder format="webp" width="700" quality="80" class="h-full w-full object-cover"
-                    src="/images/picture/pexels-pixabay-164634.jpg" alt="Image 9" />
+                    src="/images/picture/pexels-pixabay-433308.jpg" alt="Image 9" />
             </div>
         </div>
         <div class=" w-[60vw]  flex flex-col gap-y-3">
             <div class="w-full h-[37vw]">
                 <NuxtImg preload placeholder format="webp" width="700" quality="80" class="h-full w-full object-cover"
-                    src="/images/picture/pexels-maria-geller-2127039.jpg" alt="Image 9" />
+                    src="/images/picture/pexels-coco-championship-598631.jpg" alt="Image 9" />
             </div>
             <div class="w-full h-[37vw]">
                 <NuxtImg preload placeholder format="webp" width="700" quality="80" class="h-full w-full object-cover"
-                    src="https://via.placeholder.com/800x800" alt="Image 9" />
+                    src="/images/picture/pexels-cottonbro-studio-3662667.jpg" alt="Image 9" />
             </div>
             <div class="w-full h-[37vw]">
                 <NuxtImg preload placeholder format="webp" width="700" quality="80" class="h-full w-full object-cover"
-                    src="https://via.placeholder.com/800x800" alt="Image 9" />
+                    src="/images/picture/pexels-anamul-rezwan-1216544.jpg" alt="Image 9" />
             </div>
             <div class="w-full h-[37vw]">
                 <NuxtImg preload placeholder format="webp" width="700" quality="80" class="h-full w-full object-cover"
-                    src="https://via.placeholder.com/800x800" alt="Image 9" />
+                    src="/images/picture/pexels-henry-&-co-1144871.jpg" alt="Image 9" />
             </div>
         </div>
     </div>
