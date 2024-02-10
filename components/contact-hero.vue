@@ -38,7 +38,7 @@
 
                 <div class="">
                     <label class="text-[14.4px] lg:text-lg block font-semibold">Country:</label>
-                    <input type="text" v-model="phone"
+                    <input type="text" v-model="country"
                         class="block w-full border-2 p-3 placeholder:text-neutral-700  text-[14.4px] lg:text-lg rounded-xl mt-3 border-black  transition-all duration-700"
                         placeholder="Type your answer here...">
                 </div>
@@ -129,22 +129,44 @@ const marketingSelected = ref(false);
 
 const name = ref('');
 const email = ref('');
-const serviceNeeded = ref('');
+const phone = ref('');
+const country = ref('');
 const budget = ref('under1000');
 const howDidYouFindUs = ref('google');
 const message = ref('');
+const WEB3FORMS_ACCESS_KEY = "a83b430f-64d3-437c-b5ed-bc7a40fef15a"
 
-const handleSubmit = () => {
+
+const handleSubmit = async () => {
     const formData = {
         name: name.value,
         email: email.value,
-        serviceNeeded: serviceNeeded.value,
+        phone: phone.value,
+        country: country.value,
+        webDesignSelected: webDesignSelected.value,
+        webDevelopmentSelected: webDevelopmentSelected.value,
+        ecommerceSelected: ecommerceSelected.value,
+        seoSelected: seoSelected.value,
+        brandingSelected: brandingSelected.value,
+        marketingSelected: marketingSelected.value,
         budget: budget.value,
         howDidYouFindUs: howDidYouFindUs.value,
         message: message.value,
     };
 
     console.log(formData);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+        body: JSON.stringify({
+            ...formData,
+            access_key: WEB3FORMS_ACCESS_KEY,
+        }),
+        headers: {
+            "Content-Type": "application/json",
+        },
+        method: "POST",
+    });
+    console.log(res);
 }
 </script>
 
