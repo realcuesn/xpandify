@@ -2,7 +2,16 @@
 export default defineNuxtConfig({
   css: ["~/assets/css/main.css", "~/assets/fonts/fonts.css"],
   ssr: true,
-  modules: ["@nuxt/image", "nuxt-swiper"],
+  site: {
+    url: 'https://www.xpandify.agency',
+  },
+
+  modules: [
+    "@nuxt/image",
+    "nuxt-swiper",
+    "nuxt-simple-robots",
+    "@nuxtjs/sitemap",
+  ],
   build: {
     transpile: ["gsap"],
   },
