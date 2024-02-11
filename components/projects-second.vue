@@ -52,7 +52,7 @@
                         src="/images/picture/mattiecarlylelegacy.png" alt="Dessange" />
                 </div>
                 <div class="w-full flex items-center justify-between mt-5">
-                    <h2 class="font-medium uppercase text-lg">Dessange</h2>
+                    <h2 class="font-medium uppercase text-lg">Mattie Carlyle</h2>
                 </div>
             </NuxtLink>
 

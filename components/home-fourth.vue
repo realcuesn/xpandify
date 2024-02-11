@@ -58,7 +58,7 @@
             <NuxtLink to="https://www.mattiecarlylelegacy.com/" class="w-full">
                 <div class="w-full aspect-square lg:h-[47vh] rounded-md">
                     <NuxtImg preload placeholder format="webp" width="1000" class="h-full w-full object-cover rounded-md"
-                        src="/images/picture/mattiecarlylelegacy.png" alt="Dessange" />
+                        src="/images/picture/mattiecarlylelegacy.png" alt="Mattie Carlyle" />
                 </div>
                 <div class="w-full flex items-center justify-between mt-5">
                     <h2 class="font-medium uppercase text-lg">Mattie Carlyle</h2>
