@@ -13,7 +13,7 @@
     "@nuxt/image": "npm:@nuxt/image-edge@latest",
     "@nuxtjs/sitemap": "^5.1.0",
     "autoprefixer": "^10.4.15",
-    "nuxt": "^3.9.3",
+    "nuxt": "^3.10.1",
     "nuxt-simple-robots": "^4.0.0-rc.14",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
@@ -21,6 +21,7 @@
   "dependencies": {
     "@studio-freight/lenis": "^1.0.22",
     "gsap": "^3.12.2",
+    "nuxt-schema-org": "^3.3.4",
     "nuxt-swiper": "^1.2.2",
     "vue3-lottie": "latest"
   }

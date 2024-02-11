@@ -3,10 +3,10 @@
         class="w-full flex items-center z-50 justify-between transition-all duration-1000 ease-linear border-b-0 fixed bg-stone-950 py-4 sm:py-7 lg:py-4 px-5 xl:px-6 top-0">
         <div>
             <NuxtLink to="/">
-                <img src="@/assets/logo.png" class="h-14 transition-all duration-700" alt="">
+                <NuxtImg src="/logo.png" format="webp" height="56" width="56" class="h-14 transition-all duration-700" alt="logo/home" />
             </NuxtLink>
         </div>
-        
+
 
         <div class="flex items-center gap-x-10 transition-all duration-700">
             <div class="gap-x-10 sm:flex items-center hidden overflow-y-clip">

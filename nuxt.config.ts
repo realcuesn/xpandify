@@ -3,7 +3,23 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css", "~/assets/fonts/fonts.css"],
   ssr: true,
   site: {
-    url: 'https://www.xpandify.agency',
+    url: "https://www.xpandify.agency",
+    name: 'Xpandify Agency',
+  },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  },
+
+  nitro: {
+    compressPublicAssets: true,
+    minify: true,
+    rollupConfig: {
+      treeshake: true,
+    },
   },
 
   modules: [
@@ -11,6 +27,7 @@ export default defineNuxtConfig({
     "nuxt-swiper",
     "nuxt-simple-robots",
     "@nuxtjs/sitemap",
+    "nuxt-schema-org",
   ],
   build: {
     transpile: ["gsap"],
