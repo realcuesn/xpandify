@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     name: 'Xpandify Agency',
   },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       htmlAttrs: {
         lang: "en",
