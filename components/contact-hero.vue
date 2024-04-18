@@ -6,7 +6,7 @@
 
             <div class="font-nuckle text-xl font-medium mt-16">Contact Email:</div>
             <a class="font-nuckle text-[14.4px] lg:text-lg  mt-12 font-light"
-                href="mailto:contact@xpandify.online">contact@xpandify.online</a>
+                href="mailto:contact@xpandify.agency">contact@xpandify.agency</a>
         </div>
 
         <form @submit.prevent="handleSubmit" class="w-full lg:flex grid-cols-2 gap-x-20 mt-5 lg:mt-0">
