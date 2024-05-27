@@ -6,7 +6,7 @@
         <HomeFourth></HomeFourth>
         <HomeFifth></HomeFifth>
  <!--        <HomeSixth></HomeSixth> -->
-        <HomeSeventh></HomeSeventh>
+     <!--      <HomeSeventh></HomeSeventh> -->
         <HomeEight></HomeEight>
         <HomeNinth></HomeNinth>
         <HomeTenth></HomeTenth>
