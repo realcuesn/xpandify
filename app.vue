@@ -37,23 +37,26 @@ onMounted(() => {
     requestAnimationFrame(raf)
   }
 
-  requestAnimationFrame(raf)
+  if (process.client) {
+    requestAnimationFrame(raf)
+  }
 
-   (function (window, document) {
-      const widget = {
-        clientId: 35506,
-        iconBgColor: "white",
-        init: () => {
-          var scriptElement = document.createElement("script");
-          scriptElement.async = true;
-          scriptElement.type = "text/javascript";
-          scriptElement.src = "https://www.bling.cloud/plugins/chat-plugin/chat-plugin.js";
-          document.head.appendChild(scriptElement);
-        },
-      };
-      widget.init();
-      window.BlingChat = window.BlingChat || widget;
-    })(window, document);
+
+  (function (window, document) {
+    const widget = {
+      clientId: 35506,
+      iconBgColor: "white",
+      init: () => {
+        var scriptElement = document.createElement("script");
+        scriptElement.async = true;
+        scriptElement.type = "text/javascript";
+        scriptElement.src = "https://www.bling.cloud/plugins/chat-plugin/chat-plugin.js";
+        document.head.appendChild(scriptElement);
+      },
+    };
+    widget.init();
+    window.BlingChat = window.BlingChat || widget;
+  })(window, document);
 })
 </script>
 
